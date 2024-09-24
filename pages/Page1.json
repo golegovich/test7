@@ -1,0 +1,727 @@
+{
+  "title": "Page1",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 6,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 40,
+        "y": 314,
+        "order": 1,
+        "width": 604,
+        "height": 394
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "OData_Basic2",
+      "cellStyles": {
+        "value": [
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""],
+          ["","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [148,115,157,140,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            null,
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            34470034.83
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            null,
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            18164252.2
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            null,
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            16305782.63
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000001]",
+              "displayText": "24-Seven"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            1992449.42
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000001]",
+              "displayText": "24-Seven"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            428214.13
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000001]",
+              "displayText": "24-Seven"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            1564235.29
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000002]",
+              "displayText": "A&A"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            2807715.58
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000002]",
+              "displayText": "A&A"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            1722148.36
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000002]",
+              "displayText": "A&A"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            1085567.22
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000003]",
+              "displayText": "Alexei's Specialities"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            2660406.58
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000003]",
+              "displayText": "Alexei's Specialities"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            1331176.7
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000003]",
+              "displayText": "Alexei's Specialities"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            1329229.88
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000004]",
+              "displayText": "BC Market"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            3756933.64
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000004]",
+              "displayText": "BC Market"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            1878466.82
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000004]",
+              "displayText": "BC Market"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            1878466.82
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000005]",
+              "displayText": "Choices Franchise 1"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            6206935.37
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000005]",
+              "displayText": "Choices Franchise 1"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            3326251.94
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000005]",
+              "displayText": "Choices Franchise 1"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            2880683.43
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000006]",
+              "displayText": "Choices Franchise 3"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            3756632.05
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000006]",
+              "displayText": "Choices Franchise 3"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            2090030.97
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000006]",
+              "displayText": "Choices Franchise 3"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            1666601.08
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000007]",
+              "displayText": "Choices Franchise 6"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            3252707.91
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000007]",
+              "displayText": "Choices Franchise 6"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            1932991.59
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000007]",
+              "displayText": "Choices Franchise 6"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            1319716.32
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000008]",
+              "displayText": "Dairy World"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            1476896.51
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000008]",
+              "displayText": "Dairy World"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            752565.16
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000008]",
+              "displayText": "Dairy World"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            724331.35
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000009]",
+              "displayText": "Delikatessen"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            2680556.53
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000009]",
+              "displayText": "Delikatessen"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            1394072.66
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000009]",
+              "displayText": "Delikatessen"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            1286483.87
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000010]",
+              "displayText": "Donald's Market"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[All]",
+              "displayText": "All Percentage"
+            },
+            5878801.24
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000010]",
+              "displayText": "Donald's Market"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[01]",
+              "displayText": "1"
+            },
+            3308333.87
+          ],
+          [
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[All]",
+              "displayText": "All Store"
+            },
+            {
+              "hiddenText": "[2CBW4_PT_STORE_D].[000010]",
+              "displayText": "Donald's Market"
+            },
+            {
+              "hiddenText": "[2CN21HCZCPY27QJZGX3QNSOBO10].[02]",
+              "displayText": "2"
+            },
+            2570467.37
+          ]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "SAP_MDX",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "172.21.72.21",
+          "endpoint": "",
+          "password": "",
+          "systemId": "100",
+          "username": "STUDENT051",
+          "reference": "",
+          "refreshToken": "",
+          "routerString": "/H/161.38.17.212",
+          "systemNumber": "00",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTED",
+          "selectedDBEntities": {
+            "cube": "",
+            "table": "",
+            "columns": [],
+            "topRows": 0,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 40,
+        "y": 53,
+        "order": 2,
+        "width": 604,
+        "height": 215
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "443",
+          "type": "ODBC",
+          "dbName": "playground",
+          "driver": "SapHana",
+          "server": "172.21.72.21",
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTION_ERROR",
+          "selectedDBEntities": {
+            "cube": "",
+            "table": "",
+            "columns": [],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page1"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}

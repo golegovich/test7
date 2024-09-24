@@ -1,0 +1,2991 @@
+{
+  "title": "Experiments",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 5,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1020",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "830",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 522,
+        "y": 33,
+        "order": 15,
+        "width": 150,
+        "height": 66
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "Google",
+      "cellStyles": {
+        "value": [
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""],
+          ["","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "GOOGLE_SHEETS",
+          "dbName": "nedyx_demo",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "endpoint": "",
+          "password": "",
+          "username": "nedyx_demo_user",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "OAuth2",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTION_ERROR",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "Orders",
+            "columns": [
+              {
+                "name": "OderDate",
+                "type": "date",
+                "sortBy": null
+              },
+              {
+                "name": "OderID",
+                "type": "PK_Orders_int",
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA(\"https://sheets.googleapis.com/v4/spreadsheets/1sXAJuawR7RSO02XKuEHSXGazoqIVOue_B8b6DjFE2sM/values/WineStore!A1:C10\")",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 33,
+        "order": 1,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "ODBC_MsSQL",
+      "cellStyles": {
+        "value": [
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "ODBC",
+          "dbName": "nedyx_demo",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "endpoint": "",
+          "password": "",
+          "username": "nedyx_demo_user",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "Orders",
+            "columns": [
+              {
+                "name": "OderDate",
+                "type": "date",
+                "sortBy": null
+              },
+              {
+                "name": "OderID",
+                "type": "PK_Orders_int",
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 139,
+        "order": 3,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "ODBC_Postgres",
+      "cellStyles": {
+        "value": [
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "5432",
+          "type": "ODBC",
+          "dbName": "postgres",
+          "driver": "PostgreSQL",
+          "server": "nedyxpostgresql.postgres.database.azure.com",
+          "endpoint": "",
+          "password": "",
+          "username": "nedyxpostgresqlsa",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "regions",
+            "columns": [
+              {
+                "name": "id",
+                "type": "character varying",
+                "sortBy": null
+              },
+              {
+                "name": "region",
+                "type": "character varying",
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 358,
+        "order": 30,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "OData_Basic",
+      "cellStyles": {
+        "value": [
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "ODATA",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "https://sapes5.sapdevcenter.com/sap/opu/odata/sap/EPM_REF_APPS_SHOP_SRV/",
+          "endpoint": "",
+          "password": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "User",
+          "dbObjectOptions": [],
+          "connectionStatus": "NO_TOKEN",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "Images",
+            "columns": [
+              {
+                "name": "Id",
+                "type": "Edm.String",
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 247,
+        "order": 29,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "OData_noAuth",
+      "cellStyles": {
+        "value": [
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "ODATA",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "https://services.odata.org/OData/OData.svc",
+          "endpoint": "",
+          "password": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "NoAuth",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "Persons",
+            "columns": [
+              {
+                "name": "Name",
+                "type": "Edm.String",
+                "sortBy": null
+              },
+              {
+                "name": "ID",
+                "type": "Edm.Int32",
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 689,
+        "order": 13,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "SSAS_Oauth",
+      "cellStyles": {
+        "value": [
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "5432",
+          "type": "SSAS",
+          "dbName": "adventureWorks",
+          "driver": "PostgreSQL",
+          "server": "asazure://westeurope.asazure.windows.net/nedyxasdemo",
+          "endpoint": "",
+          "password": "",
+          "username": "dbuser@nedyx.com",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "OAuth2",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": "Model",
+            "table": "",
+            "columns": [
+              {
+                "name": "Product/Color",
+                "type": "",
+                "sortBy": null
+              },
+              {
+                "name": "Product/Class",
+                "type": "",
+                "sortBy": null
+              }
+            ],
+            "topRows": 0,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 575,
+        "order": 11,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "SSAS_basic",
+      "cellStyles": {
+        "value": [
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""],
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "5432",
+          "type": "SSAS",
+          "dbName": "adventureWorks",
+          "driver": "PostgreSQL",
+          "server": "asazure://westeurope.asazure.windows.net/nedyxasdemo",
+          "endpoint": "",
+          "password": "",
+          "username": "dbuser@nedyx.com",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "User",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": "Model",
+            "table": "",
+            "columns": [
+              {
+                "name": "Product/Color",
+                "type": "",
+                "sortBy": null
+              },
+              {
+                "name": "Product/Class",
+                "type": "",
+                "sortBy": null
+              }
+            ],
+            "topRows": 0,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 468,
+        "order": 9,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "SSAS_technical",
+      "cellStyles": {
+        "value": [
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "5432",
+          "type": "SSAS",
+          "dbName": "adventureWorks",
+          "driver": "PostgreSQL",
+          "server": "asazure://westeurope.asazure.windows.net/nedyxasdemo",
+          "endpoint": "",
+          "password": "",
+          "username": "o.tyshchenko@nedyx.com",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": "Model",
+            "table": "",
+            "columns": [
+              {
+                "name": "Geography/City",
+                "type": "",
+                "sortBy": null
+              }
+            ],
+            "topRows": 0,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 522,
+        "y": 139,
+        "order": 17,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "Smartbooks",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "SMARTBOOKS_AI",
+          "dbName": "nedyx_demo",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "endpoint": "",
+          "password": "",
+          "username": "nedyx_demo_user",
+          "reference": "",
+          "refreshToken": "",
+          "authentication": "OAuth2",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "table": "Orders",
+            "columns": [
+              {
+                "name": "OderDate",
+                "type": "date",
+                "sortBy": null
+              },
+              {
+                "name": "OderID",
+                "type": "PK_Orders_int",
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 224,
+        "y": 33,
+        "order": 2,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#ODBC_MsSQL)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 0,
+        "order": 19,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell10",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["ODBC MsSQL"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 104,
+        "order": 20,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell11",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["ODBC Postgres"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 209,
+        "order": 21,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell12",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["OData noAuth"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 319,
+        "order": 22,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell13",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["OData Basic"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 428,
+        "order": 23,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell14",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["SSAS technical"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 538,
+        "order": 24,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell15",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["SSAS basic"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 35,
+        "y": 647,
+        "order": 25,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell16",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["SSAS Oauth2"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 522,
+        "y": 0,
+        "order": 26,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell17",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Google"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 522,
+        "y": 104,
+        "order": 27,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell18",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Smartbooks"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 224,
+        "y": 139,
+        "order": 4,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#ODBC_Postgres)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 224,
+        "y": 247,
+        "order": 6,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#OData_noAuth)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 224,
+        "y": 358,
+        "order": 8,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#OData_Basic)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 224,
+        "y": 468,
+        "order": 10,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell5",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#SSAS_technical)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 224,
+        "y": 575,
+        "order": 12,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell6",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#SSAS_basic)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 224,
+        "y": 689,
+        "order": 14,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell7",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#SSAS_Oauth)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 747,
+        "y": 33,
+        "order": 16,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell8",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#Google)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 747,
+        "y": 139,
+        "order": 18,
+        "width": 198,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell9",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": [
+        {
+          "code": "GETSTATEMENT(#Smartbooks)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 524,
+        "y": 270,
+        "order": 28,
+        "width": 392,
+        "height": 107
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "text1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#e34848",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"]
+      },
+      "type": "TEXT",
+      "rawData": {
+        "value": [
+          ["{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"font-size: 28px;background-color: #e34848;color: #ffffff;\",\"text\":\"Please exercise caution with SSAS, you may waste time\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"heading\",\"version\":1,\"tag\":\"h1\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Experiments"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}
